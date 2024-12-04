@@ -1,4 +1,4 @@
-# SSDiff: Spatial-spectral Integrated Diffusion Model for Remote Sensing Pansharpening
+# SSDiff: Spatial-spectral Integrated Diffusion Model for Remote Sensing Pansharpening [NeurIPS 2024]
 
 <div style="text-align: center;">
   <a href="https://www.arxiv.org/">
