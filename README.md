@@ -5,6 +5,8 @@
     <img src="https://img.shields.io/badge/arXiv-red.svg?style=flat" alt="ArXiv">
   </a>
     <a href="https://arxiv.org/abs/2404.11537">Arxiv</a>
+    <img class="nips-logo" src="https://neurips.cc/static/core/img/NeurIPS-logo.svg" alt="NeurIPS logo" height="25" width="58">
+    <a href="https://openreview.net/pdf?id=QMVydwvrx7">NeurIPS 2024
 </div>
 <p style="text-align: center; font-family: 'Times New Roman';">
   </a>
