@@ -180,8 +180,6 @@ class Down(nn.Module):
         return self.conv(x)
 
 
-
-# from scripts.tmp import PatchMergeModule
 from patch_merge_module.import_module import PatchMergeModule
 class SSNet(PatchMergeModule):
     def __init__(
