@@ -71,7 +71,6 @@ def main(
     # image_num = len(data)
     image_num = 20
     print("image_num:", image_num)
-    gt_dim = 8
     
     tic = time.time()
     for i in range(image_num):
@@ -92,7 +91,7 @@ def main(
 
         sample = sample_fn(
                     model,
-                    shape=(args.crop_batch_size, gt_dim, args.image_size, args.image_size),
+                    shape=(args.crop_batch_size, args.ms_dim, args.image_size, args.image_size),
                     model_kwargs=kwargs_data,
                     clip_denoised=args.clip_denoised,
                     progress=False)
