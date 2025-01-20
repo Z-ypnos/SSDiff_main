@@ -40,6 +40,11 @@ In this office repo, you can find the Pansharpening dataset of [WV3, GF2, and QB
 
 Other instructions will come soon!
 
+## Quick Start
+
+> pip install udl-vis -i https://pypi.org/simple
+
+> pip install pancollection -i https://pypi.org/simple
 
 ## Citation
 
