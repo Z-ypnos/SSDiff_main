@@ -29,9 +29,9 @@ rootPath = os.path.abspath(os.path.dirname(__file__))
 
 
 def main(
-    device='cuda:0',
-    crop_batch_size=10,
-    timestep_respacing="ddim10"
+    device,
+    crop_batch_size,
+    timestep_respacing
     ):
 
 
