@@ -29,9 +29,9 @@ rootPath = os.path.abspath(os.path.dirname(__file__))
 
 
 def main(
-    device,
-    crop_batch_size,
-    timestep_respacing
+    device=None,
+    crop_batch_size=None,
+    timestep_respacing=None
     ):
 
 
