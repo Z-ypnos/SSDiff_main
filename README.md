@@ -56,5 +56,13 @@ If you find our paper useful, please consider citing the following:
   author={Zhong, Yu and Wu, Xiao and Deng, Liang-Jian and Cao, Zihan},
   journal={arXiv preprint arXiv:2404.11537},
   year={2024}
+},
+@inproceedings{
+zhong2024ssdiff,
+title={{SSD}iff: Spatial-spectral Integrated Diffusion Model for Remote Sensing Pansharpening},
+author={Yu Zhong and Xiao Wu and Liang-Jian Deng and Zihan Cao and Hong-Xia Dou},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=QMVydwvrx7}
 }
 ```
