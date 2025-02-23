@@ -57,6 +57,7 @@ If you find our paper useful, please consider citing the following:
   journal={arXiv preprint arXiv:2404.11537},
   year={2024}
 },
+
 @inproceedings{
 zhong2024ssdiff,
 title={{SSD}iff: Spatial-spectral Integrated Diffusion Model for Remote Sensing Pansharpening},
