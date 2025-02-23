@@ -51,13 +51,6 @@ Other instructions will come soon!
 If you find our paper useful, please consider citing the following:
 
 ```tex
-@article{zhong2024ssdiff,
-  title={SSDiff: Spatial-spectral Integrated Diffusion Model for Remote Sensing Pansharpening},
-  author={Zhong, Yu and Wu, Xiao and Deng, Liang-Jian and Cao, Zihan},
-  journal={arXiv preprint arXiv:2404.11537},
-  year={2024}
-}
-
 @article{zhong2025ssdiff,
   title={SSDiff: Spatial-spectral integrated diffusion model for remote sensing pansharpening},
   author={Zhong, Yu and Wu, Xiao and Deng, Liang-Jian and Cao, Zihan and Dou, Hong-Xia},
