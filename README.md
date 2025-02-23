@@ -56,7 +56,7 @@ If you find our paper useful, please consider citing the following:
   author={Zhong, Yu and Wu, Xiao and Deng, Liang-Jian and Cao, Zihan},
   journal={arXiv preprint arXiv:2404.11537},
   year={2024}
-},
+}
 
 @inproceedings{
 zhong2024ssdiff,
