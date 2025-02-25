@@ -31,7 +31,7 @@ rootPath = os.path.abspath(os.path.dirname(__file__))
 def main(
     device=None,
     crop_batch_size=None,
-    timestep_respacing=None
+    timestep_respacing="ddim10"
     ):
 
 
