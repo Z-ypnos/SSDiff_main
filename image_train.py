@@ -39,7 +39,7 @@ def main(
     ):
     
     args = parser_args()
-    set_seed(2025)
+    set_seed(2024)
     if device is not None:
         args.device = device
     torch.cuda.set_device(args.device)
