@@ -47,7 +47,7 @@ def main(
         args.timestep_respacing = timestep_respacing
     
 
-    logger.configure(dir='/'.join([rootPath, 'logs/train_logs/']))
+    logger.configure(dir='/'.join([rootPath, 'logs/sample_logs/']))
 
     logger.log("creating model and diffusion...")
     model, diffusion = create_model_and_diffusion(
