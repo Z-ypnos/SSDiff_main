@@ -24,7 +24,7 @@ class parser_args(TaskDispatcher, name='DPM_ps'):
 
         ckpt_model_path = ""
         
-        test_model_path = "/Data3/YuZhong/SSdiff_main/SSdiff_main-main/results/ema_0.9999_021000.pt"
+        test_model_path = ""
 
 
         parser = argparse.ArgumentParser(description='PyTorch Training')
