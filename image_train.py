@@ -34,12 +34,12 @@ def set_seed(seed):
     
 
 def main(
-    device='cuda:0',
+    device='cuda:1',
     Resume = False
     ):
     
     args = parser_args()
-    set_seed(1)
+    set_seed(2025)
     if device is not None:
         args.device = device
     torch.cuda.set_device(args.device)
@@ -83,6 +83,7 @@ def main(
         schedule_sampler=schedule_sampler,
         weight_decay=args.weight_decay,
         lr_anneal_steps=args.lr_anneal_steps,
+        rootPath=rootPath,
     ).run_loop()
 
 
