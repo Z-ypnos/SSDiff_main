@@ -43,6 +43,7 @@ class TrainLoop:
         schedule_sampler=None,
         weight_decay=0.0,
         lr_anneal_steps=0,
+        rootPath=None,
     ):
         self.model = model
         self.diffusion = diffusion
@@ -64,6 +65,7 @@ class TrainLoop:
         self.schedule_sampler = schedule_sampler or UniformSampler(diffusion)
         self.weight_decay = weight_decay
         self.lr_anneal_steps = lr_anneal_steps
+        self.rootPath = rootPath
 
         self.step = 0
         self.resume_step = 0
@@ -278,8 +280,10 @@ class TrainLoop:
             else:
                 filename = f"ema_{rate}_{(self.step + self.resume_step):06d}.pt"
             
-            os.makedirs("results/" + str(self.loca), exist_ok=True)
-            th.save(state_dict, os.path.join("results/" + str(self.loca) + "/", filename))
+            if self.rootPath is not None:
+                save_path = '/'.join([self.rootPath, "results/" + str(self.loca)])
+            os.makedirs(save_path, exist_ok=True)
+            th.save(state_dict, os.path.join(save_path + "/", filename))
             
 
         save_checkpoint(0, self.master_params)
